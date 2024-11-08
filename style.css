@@ -1,0 +1,768 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+     .b01, .b03, .b04, .b05, .b06, .b07, .b08, .b09, .b10{
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .b01{
+        width: 100%;
+        height: 988px;
+        background-image: url(img/bg01.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .b01_guide{
+        width: 1000px;
+        height: 988px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .b01_img_01{
+        width: 695px;
+        height: 695px;
+        background-image: url(img/bg01_01.png);
+        top: 145px;
+        left: 153px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+
+    .b01_tit{
+        width: 500px;
+        height: 293px;
+        position: relative;
+        top: 169px;
+        left: 195px;
+    }
+    .b01_txt{
+        color: #707070;
+        font-size: 56px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        line-height: 75px;
+
+    }
+    .b01_txt > span{
+        font-family: "Nanum Myeongjo", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .b02{
+        width: 100%;
+        height: 984px;
+        background-image: url(img/bg02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .b02_guide{
+        width: 1000px;
+        height: 984px;
+        margin: 0 auto;
+        position: relative;
+        
+    }
+
+    .b02_tit01{
+        width: 500px;
+        height: 293px;
+        position: absolute;
+        top: 78px;
+        left: 40px;
+    }
+    .b02_tit02{
+        width: 559px;
+        height: 293px;
+        position: absolute;
+        top: 240px;
+        left: 28px;
+       
+    }
+    .b02_tit03{
+        width: 662px;
+        height: 293px;
+        position: absolute;
+        top: 474px;
+        left: 28px;
+    }
+    .b02_txt01{
+        color: #707070;
+        font-size: 38px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 700;
+       
+
+    }
+    .b02_txt02{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+    }
+    .b02_txt02 > span{
+        color: white;
+    }
+    .b02_txt03{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+     
+
+    }
+    .b02_txt03 > span{
+        color: white;
+    }
+    .b03{
+        width: 100%;
+        height: 984px;
+        background-image: url(img/bg03.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .b03_guide{
+        width: 1000px;
+        height: 984px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .b03_tit01{
+        width: 460px;
+        height: 80px;
+        position: absolute;
+        top: 396px;
+        left: 272px;
+    }
+    .b03_tit02{
+        width: 930px;
+        height: 111px;
+        position: absolute;
+        top: 492px;
+        left: 35px;
+       
+    }
+    .b03_tit03{
+        width: 600px;
+        height: 80px;
+        position: absolute;
+        top: 650px;
+        left: 230px;
+    }
+    .b03_txt01{
+        color: #EB4754;
+        font-size: 30px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .b03_txt02{
+        color: #EB4754;
+        font-size: 40px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 500;
+        text-align: center;
+
+    }
+   
+    .b03_txt03{
+        color: #3C282A;
+        font-size: 60px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 600;
+        text-align: center;
+     
+    }
+
+    .b04{
+        width: 100%;
+        height: 984px;
+        background-image: url(img/bg04.png);
+        background-position: center;
+    }
+    .b04_guide{
+        width: 1000px;
+        height: 984px;
+        margin: 0 auto;
+        position: relative;
+        background-image: url(img/bg04_01.png);
+        background-repeat: no-repeat;
+    }
+    .b04_tit01{
+        width: 661px;
+        height: 83px;
+        position: absolute;
+        top: 72px;
+        left: 40px;
+    }
+    .b04_tit02{
+        width: 767px;
+        height: 149px;
+        position: absolute;
+        top: 225px;
+        left: 28px;
+       
+    }
+    .b04_tit03{
+        width: 767px;
+        height: 174px;
+        position: absolute;
+        top: 661px;
+        left: 212px;
+    }
+    .b04_txt01{
+        color: #707070;
+        font-size : 38px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 700;
+        
+       
+
+    }
+    .b04_txt02{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+     
+
+    }
+    .b04_txt03{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+     
+
+    }
+    .b05{
+        width: 100%;
+        height: 984px;
+        background-image: url(img/bg05.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .b05_guide{
+        width: 100%;
+        height: 984px;
+        margin: 0px auto;
+        position: relative;
+        background-position: center;
+        background-image: url(img/bg05_01.png);
+        background-repeat: no-repeat;
+    }
+    .b05_t_guide{
+        width: 1000px;
+        height: 984px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .b05_tit01{
+        width: 767px;
+        height: 152px;
+        position: absolute;
+        top: 77px;
+        left: 117px;
+        
+    }
+    .b05_tit02{
+        width: 771px;
+        height: 151px;
+        position: absolute;
+        top: 771px;
+        left: 135px;
+       
+    }
+    .b05_txt01{
+        color: #5a5a5a;
+        font-size : 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        text-align: center;
+       
+
+    }
+    .b05_txt01 > span{
+        font-weight: 700;
+    }
+    .b05_txt02{
+        color: #5a5a5a;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    .b05_txt02 > span{
+       font-weight: 700;
+    }
+    .b06{
+        width: 100%;
+        height: 984px;
+        background-image: url(img/bg06.png);
+        background-position: center;
+    }
+    .b06_guide{
+        width: 1000px;
+        height: 984px;
+        margin: 0 auto;
+        position: relative;
+
+    }
+    .b06_ob{
+        width: 36px;
+        height: 820px;
+        position: absolute;
+        border-style: solid;
+        border-color: #707070;
+        top: 136px;
+        left: 483px;
+    }
+    .b06_line1{
+        width: 378px;
+        height: 1.5px;
+        position: absolute;
+        background-color: #707070;
+        top: 180.5px;
+        left: 157px;
+
+    }
+    .b06_line2{
+        width: 387px;
+        height: 1.5px;
+        position: absolute;
+        background-color: #707070;
+        top: 372px;
+        left: 448px;
+
+    }
+    .b06_line3{
+        width: 428px;
+        height: 1.5px;
+        position: absolute;
+        background-color: #707070;
+        top: 511px;
+        left: 157px;
+
+    }
+    .b06_line4{
+        width: 374px;
+        height: 1.5px;
+        position: absolute;
+        background-color: #707070;
+        top: 783px;
+        left: 461px;
+
+    }
+    .b06_img_01{
+        width: 123.53px;
+        height: 35.15px;
+        background-image: url(img/bg06_img_01.png);
+        top: 74px;
+        left: 429.8px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    .b06_img_02{
+        width: 1920px;
+        height: 984px;
+        background-image: url(img/bg06_001.png);
+        top: 344px;
+        left: 213px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    .b06_img_03{
+        width: 1920px;
+        height: 984px;
+        background-image: url(img/bg06_002.png);
+        top: 172px;
+        left: 550px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    .b06_img_04{
+        width: 1920px;
+        height: 984px;
+        background-image: url(img/bg06_003.png);
+        top: 831px;
+        left: 172px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    .b06_img_05{
+        width: 1920px;
+        height: 984px;
+        background-image: url(img/bg06_004.png);
+        top: 596px;
+        left: 624px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+
+    .b06_tit01{
+        width: 636px;
+        height: 300px;
+        position: absolute;
+        top: 74px;
+        left: 40px;
+    }
+    .b06_tit02{
+        width: 320px;
+        height: 300px;
+        position: absolute;
+        top: 172px;
+        left: 103px;
+       
+    }
+    .b06_tit03{
+        width: 312px;
+        height: 300px;
+        position: absolute;
+        top: 360px;
+        left: 586px;
+    }
+    .b06_tit04{
+        width: 310px;
+        height: 400px;
+        position: absolute;
+        top: 503px;
+        left: 103px;
+    }
+    .b06_tit05{
+        width: 320px;
+        height: 300px;
+        position: absolute;
+        top: 772px;
+        left: 586px;
+    }
+    .b06_txt01{
+        color: #707070;
+        font-size : 38px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 700;
+       
+       
+    }
+    .b06_txt02{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+         text-align: left;
+     
+
+    }
+    .b06_txt02 > span{
+        font-weight: 600 ;}
+    .b06_txt03{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+       text-align: right;
+     
+
+    }
+    .b06_txt03 > span{
+        font-weight: 600 ;}
+    .b06_txt04{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+         text-align: left;
+     
+
+    }
+    .b06_txt04 > span{
+        font-weight: 600 ;}
+    .b06_txt05{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        text-align: right;
+
+    }
+    .b06_txt05 > span{
+        font-weight: 600 ;}
+    .b07{
+        width: 100%;
+        height: 984px;
+        background-color: #FBF7F6;
+    }
+    .b07_guide{
+        width: 100%;
+        height: 984px;
+        margin: 0px auto;
+        position: relative;
+        background-position: center;
+        background-image: url(img/bg07_01.png);
+        background-repeat: no-repeat;
+    }
+    .b07_t_guide{
+        width: 1000px;
+        height: 984px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .b07_line1{
+        width: 559px;
+        height: 1.5px;
+        position: absolute;
+        background-color: #707070;
+        top: 299.5px;
+        left: -20px;
+    }
+    .b07_line2{
+        width: 559px;
+        height: 1.5px;
+        position: absolute;
+        background-color: #707070;
+        top: 624.5px;
+        left: -20px;
+    }
+    .b07_tit01{
+        width: 540px;
+        height: 105px;
+        position: absolute;
+        top: 136px;
+        left: -20px;
+    }
+    .b07_tit02{
+        width: 545px;
+        height: 252px;
+        position: absolute;
+        top: 336px;
+        left: -20px;
+       
+    }
+    .b07_txt01{
+        color: #707070;
+        font-size : 18px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        text-align: center;
+       
+
+    }
+    .b07_ext01{font-weight: 700;font-size: 25px;}
+    .b07_ext02{font-weight: 700;font-size: 20px;}
+
+    /* .b07_txt01 > span{
+        font-weight: 700;
+        font-size: 25px;
+    } */
+    .b07_txt02{
+        color: #707070;
+        font-size: 22px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        
+    }
+    .b07_txt02 > span{
+       font-weight: 700;
+    }
+    .b08{
+        width: 100%;
+        height: 984px;
+        background-image: url(img/bg06.png);background-image: url(img/bg08.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .b08_guide{
+        width: 1000px;
+        height: 984px;
+        margin: 0 auto;
+        position: relative;
+
+    }
+    .b08_tit01{
+        width: 919px;
+        height: 151px;
+        position: absolute;
+        top: 221px;
+        left: 41px;
+    }
+    .b08_tit02{
+        width: 919px;
+        height: 77px;
+        position: absolute;
+        top: 402px;
+        left: 42px;
+       
+    }
+    .b08_tit03{
+        width: 919px;
+        height: 122px;
+        position: absolute;
+        top: 509px;
+        left: 40px;
+    }
+    .b08_tit04{
+        width: 919px;
+        height: 103px;
+        position: absolute;
+        top: 666px;
+        left: 40px;
+    }
+    .b08_txt01{
+        color: #707070;
+        font-size : 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    .b08_txt01 > span{
+        font-weight: 600 ;}
+    .b08_txt02{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        text-align: center;
+     
+
+    }
+    .b08_txt02 > span{
+        font-weight: 600 ;}
+    .b08_txt03{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        text-align: center;
+     
+
+    }
+    .b08_txt04{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        text-align: center;
+     
+
+    }
+    .b09{
+        width: 100%;
+        height: 984px;
+        background-image: url(img/bg09.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .b09_guide{
+        width: 1000px;
+        height: 984px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .b09_tit01{
+        width: 758px;
+        height: 55px;
+        position: absolute;
+        top: 76px;
+        left: 40px;
+    }
+    .b09_tit02{
+        width: 907px;
+        height: 145px;
+        position: absolute;
+        top: 166px;
+        left: 53px;
+       
+    }
+    .b09_tit03{
+        width: 907px;
+        height: 125px;
+        position: absolute;
+        top: 346px;
+        left: 53px;
+    }
+    .b09_txt01{
+        color: #707070;
+        font-size: 38px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 700;
+       
+
+    }
+    .b09_txt02{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+    }
+    .b09_txt03{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+     
+
+    }
+    .b09_txt03 > span{
+        font-weight: 700;
+    }
+
+    .b10{
+        width: 100%;
+        height: 639px;
+        background-color: #FBF7F6;
+        
+    }
+    .b10_guide{
+        width: 1000px;
+        height: 639px;
+        margin: 0 auto;
+        position: relative;
+        background-image: url(img/bg10_01.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+    .b10_tit01{
+        width: 919px;
+        height: 151px;
+        position: absolute;
+        top: 224px;
+        left: 84px;
+    }
+    .b10_tit02{
+        width: 737px;
+        height: 135px;
+        position: absolute;
+        top: 279px;
+        left: 84px;
+       
+    }
+    .b10_tit03{
+        width: 165px;
+        height: 26px;
+        position: absolute;
+        top: 451px;
+        left: 805px;
+    }
+    .b10_txt01{
+        color: #707070;
+        font-size : 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 600;
+        
+    }
+    .b10_txt02{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    .b10_txt03{
+        color: #707070;
+        font-size: 20px;
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+    }
